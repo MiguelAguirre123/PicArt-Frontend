@@ -1,0 +1,16 @@
+.login-page {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.login-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-page p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}

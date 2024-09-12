@@ -1,0 +1,10 @@
+{
+  "resourceName": "dynamo265e120f",
+  "tableName": "dynamo265e120f",
+  "partitionKey": {
+    "fieldName": "datos",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-picartfrontend-dev-b079c-authRole",
+      "UnauthRoleArn": "arn:aws:iam::058264299983:role/amplify-picartfrontend-dev-b079c-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::058264299983:role/amplify-picartfrontend-dev-b079c-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-picartfrontend-dev-b079c-deployment",
+      "UnauthRoleName": "amplify-picartfrontend-dev-b079c-unauthRole",
+      "StackName": "amplify-picartfrontend-dev-b079c",
+      "StackId": "arn:aws:cloudformation:us-east-2:058264299983:stack/amplify-picartfrontend-dev-b079c/4e410590-6b29-11ef-847c-0ab209b565a7",
+      "AmplifyAppId": "d2azm56zz5li3g"
+    },
+    "categories": {
+      "auth": {
+        "picartfrontend4568dbe5": {}
+      },
+      "storage": {
+        "dynamo265e120f": {}
+      }
+    }
+  }
+}
