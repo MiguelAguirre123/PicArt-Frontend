@@ -1,0 +1,49 @@
+/* stylos/SlideMenu.css */
+.slide-menu {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #343a40;
+    color: white;
+    padding-top: 60px;
+    transition: right 0.3s ease;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.slide-menu.open {
+    right: 0;
+}
+
+.slide-menu .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.slide-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.slide-menu ul li {
+    padding: 10px 20px;
+}
+
+.slide-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.slide-menu ul li a:hover {
+    background-color: #007bff;
+    padding-left: 10px;
+    transition: 0.3s;
+}

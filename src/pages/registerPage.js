@@ -1,6 +1,6 @@
 import React from 'react';
 import RegisterForm from '../components/registerForm'; // Asegúrate de que la ruta sea correcta
-import './registerPage.css'; // Agrega estilos personalizados si es necesario
+import '../styles/registerPage.css'; // Agrega estilos personalizados si es necesario
 
 const RegisterPage = () => {
     return (

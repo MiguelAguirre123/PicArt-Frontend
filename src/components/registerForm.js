@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { registerUser } from '../utils/api'; // Asegúrate de que la ruta sea correcta
 import { useNavigate } from 'react-router-dom';
-import './registerForm.css';
+import '../styles/registerForm.css';
 
 const RegisterForm = () => {
   const [email, setEmail] = useState('');

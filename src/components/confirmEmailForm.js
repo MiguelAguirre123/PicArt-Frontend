@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { confirmEmail } from '../utils/api'; // Asegúrate de que la ruta sea correcta
 import { useNavigate } from 'react-router-dom';
-import './registerForm.css'; // Puedes reutilizar los estilos o crear nuevos
+import '../styles/registerForm.css'; // Puedes reutilizar los estilos o crear nuevos
 
 const ConfirmEmailForm = () => {
   const [email, setEmail] = useState('');

@@ -1,6 +1,6 @@
 import React from 'react';
 import LoginForm from '../components/loginForm'; // Asegúrate de que la ruta sea correcta
-import './loginPage.css'; // Agrega estilos personalizados si es necesario
+import '../styles/loginPage.css'; // Agrega estilos personalizados si es necesario
 
 const LoginPage = () => {
     return (
